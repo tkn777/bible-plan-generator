@@ -1,9 +1,7 @@
 [project]
 name = "bible-plan-generator"
 version = "0.1.0"
-dependencies = [
-    "pydantic (>=2.11.7,<3.0.0)"
-]
+dependencies = ["pydantic (>=2.11.7,<3.0.0)"]
 
 [tool.poetry]
 package-mode = false
