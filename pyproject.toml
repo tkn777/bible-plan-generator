@@ -1,11 +1,11 @@
 [project]
-name = "bible-plan-generator"
+name = "bible-reading-plan-generator"
 version = "0.1.0"
 dependencies = ["pydantic (>=2.11.7,<3.0.0)"]
 
 [tool.poetry]
 packages = [
-    { include = "bible_plan_generator", from = "src" }
+    { include = "bible_reading_plan_generator", from = "src" }
 ]
 
 [tool.poetry.dependencies]
